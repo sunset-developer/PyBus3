@@ -43,7 +43,7 @@
 
 PyBus3 is an event bus library inspired by Guava's library. Using the publisher/subscriber pattern for loose coupling, this enables central communication to decoupled classes with just a few lines of code. This simplifies the code, removes dependencies, and speeds up app development.
 
-Your benefits using EventBus: It… 
+Your benefits using PyBus3: It… 
 * Simplifies the communication between components.
 * Uses async/await syntax.
 * Avoids complex and error-prone dependencies and life cycle issues.
