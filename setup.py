@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='PyBus',
+    name='PyBus3',
     version='0.1.0',
     packages=['tests'],
     url='https://github.com/sunset-developer/Async-Pybus',
