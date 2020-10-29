@@ -15,7 +15,7 @@ class TestClass:
         self.test_message = None
 
     @subscribe(TestEvent)
-    async def subscribed(self, event):
+    async def onTestEvent(self, event):
         self.test_message = event.message
 
 
