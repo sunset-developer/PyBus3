@@ -1,9 +1,4 @@
-import multiprocessing
-import threading
-from queue import Queue
-
-
-class AsyncPyBus:
+class AsyncEventBus:
     _registered = []
     _subscribed = {}
     _instance = None
@@ -34,7 +29,7 @@ class AsyncPyBus:
 def subscribe(*args, **kwargs):
     def inner(func):
         event = kwargs['event'] if args[0] is None else args[0]
-        AsyncPyBus.instance().subscribe(func, event)
+        AsyncEventBus.instance().subscribe(func, event)
         return func
 
     return inner
