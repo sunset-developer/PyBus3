@@ -12,7 +12,7 @@
   <h3 align="center">PyBus3</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A simple and efficient eventbus for python 3.6+ 
     <br />
     <a href="https://github.com/sunset-developer/PyBus3/issues">Report Bug</a>
     ·
