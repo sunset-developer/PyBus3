@@ -33,8 +33,6 @@
   <p align="center">
     A simple and efficient eventbus for python 3.6+ 
     <br />
-    <a href="https://github.com/sunset-developer/PyBus3">View Demo</a>
-    ·
     <a href="https://github.com/sunset-developer/PyBus3/issues">Report Bug</a>
     ·
     <a href="https://github.com/sunset-developer/PyBus3/issues">Request Feature</a>
